@@ -1,1 +1,1 @@
-# Solulab_JavaScript_Course
+# Udemy_JavaScript_Course
