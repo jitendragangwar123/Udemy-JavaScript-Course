@@ -8,17 +8,18 @@ console.log(x);
 console.log(a);//Uncought ReferenceError : a is not defined
 */
 
-# In var keyword we can override it's value.
-# function scope
-//var a=1;
-//var a=2;
+//Overriding possible
+var a=2;
+var a=3;
+console.log(a);  //3
 
-# let has block scope
-//let a=2;
-// let b;
-// b=10;
 
-# const has block scope
-//const a =10;
-// const b;
-// b=10; // it's generates error
+let b=2;
+// let b=3 not possible
+//reassigned the value with same variable
+b=3;
+console.log(b); //3
+
+const c=3;
+//c=4;
+console.log(c);//3
