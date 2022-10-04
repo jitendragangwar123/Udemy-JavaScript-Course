@@ -24,3 +24,9 @@ console.log(myFriends); //[ 'Ram' ]
 //Update the elements
 myFriends[0]="Hari";
 console.log(myFriends); //[ 'Hari' ]
+
+//for loop 
+for(let i=0;i<10;i++){
+    myFriends.push(i);
+}
+console.log(myFriends);
