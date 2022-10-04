@@ -24,3 +24,11 @@ const totalFriends=4;
 const sum=friends[0]+friends[1]+friends[2]+friends[3];
 const average=sum/totalFriends;
 console.log(average);
+
+//Increment and Decrement Operator
+let myMarks=10;
+myMarks++;
+//myMarks--;
+//++myMarks;
+//--myMarks;
+console.log(myMarks);
