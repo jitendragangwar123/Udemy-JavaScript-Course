@@ -35,3 +35,15 @@ const myObjects={
     keyname2:"value2"
 }
 console.log(myObjects.keyname1.obj2["key"]); //v1
+
+//other example
+const myOwnObject={
+    "myAge":24,
+    "myName":"Jeetu",
+    myFriend:{
+        "myFriendAge": 26
+    }
+}
+
+console.log(myOwnObject.myFriend["myFriendAge"]); //26
+
