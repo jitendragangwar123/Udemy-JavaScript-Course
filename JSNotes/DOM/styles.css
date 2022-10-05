@@ -1,0 +1,11 @@
+body{
+    padding: 10px;
+    margin:0px;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul li {
+    text-decoration: solid;
+    color: aqua;
+}
