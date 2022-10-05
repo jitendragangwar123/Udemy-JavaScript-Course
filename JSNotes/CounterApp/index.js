@@ -12,7 +12,16 @@ function incrementCounter(){
     let li=document.createElement("li");
     //Set the attribute
     li.setAttribute('data-counter',counter);
+
+    //add style attribute 
+    if(counter%2===0){
+        li.style.color="red"
+    }
+    else{
+        li.style.color="blue";
+    }
     li.innerHTML="<b>Hello GFG</b>" +counter;
+    
     //Append the element
     listEl.appendChild(li);
 }
