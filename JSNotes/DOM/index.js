@@ -11,6 +11,7 @@ const heading=document.querySelector("#name");
 heading.innerText="Hii Jeetu";
 console.log(heading);
 
+
 //Using class name 
 // const heading=document.querySelector(".name");
 // heading.innerText="Hii Jeetu";
