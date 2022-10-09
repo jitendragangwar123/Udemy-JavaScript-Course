@@ -1,12 +1,12 @@
 # JS is Synchronous and single threaded language
 # JS engine creates GEC which have memory space and the execution context, a global object(window) and a this variable
 # this===window
-/*
+
 console.log(x);
 var x=24;
 console.log(x);
 console.log(a);//Uncought ReferenceError : a is not defined
-*/
+
 
 //Overriding possible
 var a=2;
