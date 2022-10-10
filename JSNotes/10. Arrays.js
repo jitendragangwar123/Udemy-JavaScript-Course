@@ -44,7 +44,7 @@ let myArray=[12,-2,4 ,5 ,6];
 [myArray[0],myArray[2]]=[myArray[2],myArray[0]];
 console.log(myArray); // [ 4, -2, 12, 5, 6 ]
 
-
+// String Array
 let stringArray=["j","k","l","u","i"];
 // sort the array
 stringArray.sort();
@@ -55,5 +55,13 @@ stringArray.reverse();
 // Get the descending order of the array elements
 console.log(stringArray); // [ 'u', 'l', 'k', 'j', 'i' ]
 
+//Number Array
+let numArr=[1,2,4,2,5];
+//Sort the Array Elements in ascending order
+numArr.sort((a,b)=>a-b);
+console.log(numArr);
 
+//Sort the Array Elements in descending order
+numArr.sort((a,b)=>b-a);
+console.log(`descending order:${numArr}`);
 
