@@ -43,3 +43,17 @@ console.log(myArray); // [ 4, -2, 12, 5, 6 ]
 let myArray=[12,-2,4 ,5 ,6];
 [myArray[0],myArray[2]]=[myArray[2],myArray[0]];
 console.log(myArray); // [ 4, -2, 12, 5, 6 ]
+
+
+let stringArray=["j","k","l","u","i"];
+// sort the array
+stringArray.sort();
+// Get the ascending order of the array elements
+console.log(stringArray); //[ 'i', 'j', 'k', 'l', 'u' ]
+// Reverse of the array
+stringArray.reverse();
+// Get the descending order of the array elements
+console.log(stringArray); // [ 'u', 'l', 'k', 'j', 'i' ]
+
+
+
