@@ -68,6 +68,22 @@ let isDeveloper=false;
 // }
 
 // Best Approuch
-
 console.log(`You are ${isDeveloper ? " " : "not"} a Developer`);
+
+// If_Else Loop
+const canAccess=(a)=>{
+    if(a===1 || a===2 || a===3){
+        return true;
+    }
+    return false;
+};
+console.log(canAccess(4));
+
+//Better Approach to store the values in the array
+const canAccess=(a)=>{
+   const arr=[1,2,3];
+   return arr.includes(a);
+}
+console.log(canAccess(3));
+
 
