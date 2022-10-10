@@ -30,3 +30,16 @@ for(let i=0;i<10;i++){
     myFriends.push(i);
 }
 console.log(myFriends);
+
+
+//Swap the Array Elements 
+let myArray=[12,-2,4 ,5 ,6];
+let temp=myArray[0];
+myArray[0]=myArray[1];
+myArray[1]=temp;
+console.log(myArray); 
+
+//New Method to Swap the Array Elements
+let myArray=[12,-2,4 ,5 ,6];
+[myArray[0],myArray[2]]=[myArray[2],myArray[0]];
+console.log(myArray);
