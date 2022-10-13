@@ -11,4 +11,5 @@ function logicalOperator(age,bribe,whitelisted){
         }
     }
 }
+// call the function
 logicalOperator(19,600,false); //You are banned false
