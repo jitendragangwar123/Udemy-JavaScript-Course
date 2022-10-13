@@ -48,6 +48,7 @@ const { first, second, ...others } = {
 console.log(others);
 console.log(first);
 
+
 //Spread properties allow to create a new object by combining the properties of the object passed after the spread operator
 const items = { first, second, ...others }
 console.log(items);
