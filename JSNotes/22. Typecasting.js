@@ -23,3 +23,15 @@ const newArr3=Array.from(str);
 console.log(newArr1); //[ 'J', 'a', 'c', 'o', 'b' ]
 console.log(newArr2); //[ 'J', 'a', 'c', 'o', 'b' ]
 console.log(newArr3); //[ 'J', 'a', 'c', 'o', 'b' ]
+
+//prompt and alert 
+var x=prompt("Enter x :"); // 4(prompt takes input as a string) 
+var y=prompt("Enter y: "); //5 
+var z=x+y;
+alert(z); // '45' (string)
+
+//Use typecasting
+var x=Number(prompt("Enter x :")); //convert the string into number
+var y=Number(prompt("Enter y: "));
+var z=x+y; //z=4+5
+alert(z); //9 (Number)
