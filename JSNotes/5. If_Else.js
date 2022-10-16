@@ -1,4 +1,16 @@
 //if-else example
+var x=Number(prompt("Enter x :"));
+if(x<0){
+    alert("x is less than zero");
+}
+else if(x===0){
+    alert("x is equal to zero");
+}
+else{
+    alert("x is greater than zero")
+}
+
+// Second Example
 function testSize(num) {
     // Only change code below this line
       if(num < 5){
@@ -19,10 +31,9 @@ function testSize(num) {
       else{
           return "Change Me";
       }
-    // Only change code above this line
   }
   
- console.log(testSize(7));
+ console.log(testSize(7)); // Small
 
 // First Example
 // function getPrice(item){
@@ -57,7 +68,7 @@ function getPrice(item){
 console.log(getPrice("Laptop"));
 
 
-// Second Example
+// Third Example
 
 let isDeveloper=false;
 // if(isDeveloper){
