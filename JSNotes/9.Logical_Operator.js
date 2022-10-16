@@ -1,3 +1,17 @@
+//Concatenation
+"2"+1 //21
+"2"+"1"//21
+//Sub
+"2"-1 //1
+"2"-"1" //NaN
+//Comparison Operator
+"9"===9 //false
+"9"==9 //true
+3!==4 //true
+3>=5 //false
+
+
+
 function logicalOperator(age,bribe,whitelisted){
     if(!whitelisted){
         console.log("You are banned",whitelisted);
