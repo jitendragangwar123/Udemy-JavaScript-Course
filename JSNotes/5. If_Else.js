@@ -88,13 +88,14 @@ const canAccess=(a)=>{
     }
     return false;
 };
-console.log(canAccess(4));
+console.log(canAccess(4)); // false
+
 
 //Better Approach to store the values in the array
 const canAccess=(a)=>{
    const arr=[1,2,3];
    return arr.includes(a);
 }
-console.log(canAccess(3));
+console.log(canAccess(3)); //true
 
 
