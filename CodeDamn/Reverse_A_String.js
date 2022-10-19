@@ -23,3 +23,18 @@ function reverseStr(str1){
 }
 console.log(`Reverse String: ${reverseString("Jitendra")}`); // ardnetiJ
 
+//Reverse a String in Recursive way
+function resStr(str2){
+    if (str2===""){
+        return "";
+    }
+    else{
+        return resStr(str2.substr(1))+str2.charAt(0);
+    }
+}
+console.log(resStr("Hello")); //olleH
+
+//String 
+const str="Hello";
+console.log(str.substr(1)+str.charAt(0)); // elloH
+
