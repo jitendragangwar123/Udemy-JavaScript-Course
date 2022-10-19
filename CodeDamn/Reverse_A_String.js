@@ -34,7 +34,7 @@ function resStr(str2){
 }
 console.log(resStr("Hello")); //olleH
 
-//String 
+//substr method 
 const str="Hello";
 console.log(str.substr(1)+str.charAt(0)); // elloH
 
