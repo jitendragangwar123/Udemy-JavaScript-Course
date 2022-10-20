@@ -17,3 +17,29 @@ console.table(Student);
 //Print the array in Table format
 let array=["Jeetu","Jay","Amit","Keshav"];
 console.table(array);
+
+
+//Output
+┌─────────┬────────┐
+│ (index) │ Values │
+├─────────┼────────┤
+│  Name   │ 'Jay'  │
+│   Age   │   25   │
+│ Gender  │ 'Male' │
+└─────────┴────────┘
+┌─────────┬────────────┬────────────┬─────┐
+│ (index) │ FirstName  │ SecondName │ Age │
+├─────────┼────────────┼────────────┼─────┤
+│  Stu1   │ 'Jitendra' │  'Kumar'   │ 24  │
+│  Stu2   │   'Amit'   │  'Kumar'   │ 25  │
+│  Stu3   │  'Keshav'  │  'Kumar'   │ 24  │
+└─────────┴────────────┴────────────┴─────┘
+
+┌─────────┬──────────┐
+│ (index) │  Values  │
+├─────────┼──────────┤
+│    0    │ 'Jeetu'  │
+│    1    │  'Jay'   │
+│    2    │  'Amit'  │
+│    3    │ 'Keshav' │
+└─────────┴──────────┘
