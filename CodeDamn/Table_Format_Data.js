@@ -15,7 +15,7 @@ const Student={
 console.table(Student);
 
 //Print the array in Table format
-let array=["Jeetu","Jay","Amit","Keshav"];
+let array=["Jeetu","Jay","Amit","Keshav","Vikash"];
 console.table(array);
 
 
